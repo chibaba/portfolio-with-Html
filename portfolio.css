@@ -118,7 +118,7 @@ button:active {
 .model {
     height: 31.6rem;
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     left: 70%;
     transform: translateX(-70%);
 }
@@ -129,4 +129,7 @@ button:active {
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: -7 auto 20px auto;
+    position: relative;
 }
