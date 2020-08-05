@@ -99,3 +99,12 @@ nav ul li a {
     outline: none;
     margin: 0px 10px;
 }
+
+.hire-btn {
+    border: 2px solid #373737;
+    color: #373737;
+}
+
+.download-cv {
+    background-color: #0b34ff;
+}
