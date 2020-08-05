@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-    background-color: #f6d2cf;
+    background-color: #251110;
     margin: 2rem;
     padding: 0rem
 }
@@ -14,9 +14,18 @@ a {
 }
 
 section {
-    width: 10rem;
+    width: 80rem;
     height: 95vh;
     background-image: url("./images/chi1.jpg");
     background-repeat: no-repeat;
     background-size: cover
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50rem;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 2);
 }
