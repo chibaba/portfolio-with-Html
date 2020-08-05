@@ -26,7 +26,37 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #fff;
+    background-color: #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 2);
     padding: 0px 5%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: myraid pro regular;
+    color: #5050dd;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: RoadTest;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2da2
+}
+
+.text-container p:nth-child(1) {
+    font-family: Calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
 }
