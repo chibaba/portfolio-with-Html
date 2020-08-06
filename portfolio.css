@@ -288,3 +288,15 @@ about-text p:nth-child(2) {
     outline: none;
     border-radius: 5px;
 }
+
+.contact-me {
+    width: 100%;
+    height: 280px;
+    background-image: url("./images/chu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
