@@ -116,7 +116,7 @@ button:active {
 }
 
 .model {
-    height: 30.6rem;
+    height: 25.6rem;
     position: absolute;
     bottom: 0.6rem;
     left: 70%;
@@ -239,4 +239,24 @@ about-text p:nth-child(2) {
 
 .box-3 {
     background-image: url("./images/box3.jpeg");
+}
+
+.box-1 span,
+.box-1 span,
+.box-1 span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.box-1 p:nth-child(2),
+.box-1 p:nth-child(2),
+.box-1 p:nth-child(2) {
+    color: #ffffff;
 }
