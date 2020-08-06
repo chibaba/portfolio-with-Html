@@ -360,3 +360,12 @@ footer p:nth-child(2) {
 .social-icons {
     display: flex;
 }
+
+.copyright {
+    color: #5656ff;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
