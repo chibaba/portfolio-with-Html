@@ -375,13 +375,15 @@ footer p:nth-child(2) {
     color: #000000;
 }
 
-.social-icons a:hover {
+.social-icons a:hover,
+.a-social-b a:hover {
     background-color: #000000;
     box-shadow: 2px, 2px, 12px rgba(0, 0, 0, 0.2);
     transition: all ease 0.5s;
 }
 
-.social-icons a:hover i {
+.social-icons a:hover i,
+.a-social-b a:hover i {
     color: #fff;
     transition: all ease 0.5s;
 }
@@ -405,4 +407,9 @@ footer p:nth-child(2) {
     background-color: #fff;
     border: 1px solid #cbcbcb;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.a-social-b i {
+    color: #2b2b2b;
+    font-size: 20px;
 }
