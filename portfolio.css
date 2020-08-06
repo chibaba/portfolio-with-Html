@@ -142,6 +142,7 @@ button:active {
 
 .about-text {
     width: 550px;
+    font-weight: 200;
 }
 
 about-text p:nth-child(1) {
@@ -299,4 +300,22 @@ about-text p:nth-child(2) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contact-me p {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+}
+
+.contact-me button {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
 }
