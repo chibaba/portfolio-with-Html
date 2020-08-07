@@ -116,9 +116,9 @@ button:active {
 }
 
 .model {
-    height: 25.6rem;
+    height: 29.6rem;
     position: absolute;
-    bottom: 0.6rem;
+    bottom: 0.7rem;
     left: 70%;
     transform: translateX(-70%);
 }
@@ -130,7 +130,7 @@ button:active {
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     display: flex;
-    margin: -7 auto 20px auto;
+    margin: -7% auto 20px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
